@@ -29,6 +29,15 @@ function App() {
                             {calc.name}
                         </button>
                     ))}
+
+                    <div className="sidebar-footer">
+                        <a className="source-link" href="https://boomref.soulsphere.org" target="_blank" rel="noopener noreferrer">
+                            <span className="icon">🔗</span> Source: Soulsphere
+                        </a>
+                        <a className="source-link" href="https://boomref.soulsphere.org/calc.html" target="_blank" rel="noopener noreferrer">
+                            <span className="icon">🖩</span> Original Calculator
+                        </a>
+                    </div>
                 </div>
                 
                 <div className="tab-content">
